@@ -45,6 +45,7 @@
       /* Main body and headings */
       body{
       font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      color: white;
       }
       .heading, .subheading {
       font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
@@ -97,6 +98,30 @@
       .footer a{
       color: #ccccff;
       }
+
+      .linearBg2 {
+        /* fallback */
+        background-color: #1a82f7;
+      
+        background-repeat: repeat-x;
+
+        /* Safari 4-5, Chrome 1-9 */
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#374161));
+
+        /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #374161, #1a82f7);
+
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, #374161, #1a82f7);
+
+        /* IE 10 */
+        background: -ms-linear-gradient(top, #374161, #1a82f7);
+
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, #374161, #1a82f7);
+      }
+
+      .accordion-heading a{ color: white;}
       </style>
     </head>
   <body>
@@ -127,25 +152,25 @@
 
 
 
-    <div class="container">
+    <div class="container linearBg2">
 
 
 
       <div class="row-fluid heading">
 	<div class="span12">
-	  <h1>Product</h1>
+	  <h1>TiemposDeNatacion</h1>
 	  </div>
 	</div>
       <div class="row-fluid subheading">
 	<div class="span12">
 	  
 
-	  <p class="lead">One sentence description.</p>
+	  <p class="lead">Register and Track  your swimming times</p>
 	  </div>
 	</div>
       <div class="row-fluid pitch">
 	<div class="span5 offset1 video">
-	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  <img class="img-polaroid" src="Images/swim1.jpg">
 	  </div>
 
 	<div class="span5 actions">
@@ -154,17 +179,17 @@
 	      <div class="span4">
 		            <!-- linediv-l and linedic-r give dividing lines that looj different in horizontal and verical layaouts, illustrating media queries.-->
 			                <div class="linediv-l">
-					              <h3>1000</h3><p>backers</p>
+					              <h3>0</h3><p>backers</p>
 						                  </div>
 					          </div>
 	                <div class="span4">
 			  <div class="linediv-c">
-			    <h3>$6000</h3><p> of $10,000</p>
+			    <h3>$0</h3><p> of $500</p>
 			                </div>
 			            </div>
 			          <div class="span4">
 				                  <div class="linediv-r">
-						                    <h3>10</h3><p>days left</p>
+						                    <h3>365</h3><p>days left</p>
 								                  </div>
 						            </div>
 				          </div>
@@ -173,8 +198,8 @@
 	         <!-- Bootstrap progress bar-->
 		      <!--http://twitter.github.io/bootstrap/components.html#progress-->
 		      <div class="thermometer progress active">
-			            <div class="bar bar-success" style="width: 60%;"></div>
-				                <div class="bar bar-warning" style="width: 40%;"></div> 
+			            <div class="bar bar-success" style="width: 0%;"></div>
+				                <div class="bar bar-warning" style="width: 100%;"></div> 
 						        </div> 
 		      </div>
 	  <div class="span6 offset3 order">
@@ -196,42 +221,34 @@
   <!-- http://placehold.it-->
   <div class="row-fluid section1">
     <div class="span5 offset1 asset">
-      <img class="img-polaroid" src="http://placehold.it/480x300" />
+      <img class="img-polaroid" src="Images/swim4.jpg" />
     </div>
     <div class="span5 copy">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam 
-        lorem risus, rhoncus a magna nec, dictum mollis felis. Nam lectus
-        orci, aliquet non quam non, aliquet laoreet quam. Suspendisse 
-        quis mollis sem. Sed vitae iaculis turpis. Suspendisse potenti.
-        Phasellus porta molestie pretium. Sed ut rhoncus dui. Mauris
-        non mattis nulla. Cras consequat rutrum erat. Nunc venenatis,
-        risus quis pulvinar condimentum, tortor libero egestas magna,
-        eu ullamcorper lacus turpis nec nibh. Duis lacinia laoreet ipsum,
-        sed porta turpis sodales in. Nam vitae gravida nulla. Duis eget
-        adipiscing tellus. Sed dapibus velit in commodo condimentum. 
-        Vestibulum feugiat nunc risus, in sollicitudin ipsum faucibus non.
+	This Project is an App than will allow to you keep you own tracking of your swimming times all the four styles as well as view swimming time standards. Share swimming race times with friends and family using your favorite social networking toolsFacebook.
 	</p>
+      <p>We need your support to make this project real.</p>
        </div>
        </div>
        <div class="row-fluid section2">
        <div class="span5 offset1 copy copy-right">
          <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam 
-        lorem risus, rhoncus a magna nec, dictum mollis felis. Nam lectus
-        orci, aliquet non quam non, aliquet laoreet quam. Suspendisse 
-        quis mollis sem. Sed vitae iaculis turpis. Suspendisse potenti.
-        Phasellus porta molestie pretium. Sed ut rhoncus dui. Mauris
-        non mattis nulla. Cras consequat rutrum erat. Nunc venenatis,
-        risus quis pulvinar condimentum, tortor libero egestas magna,
-        eu ullamcorper lacus turpis nec nibh. Duis lacinia laoreet ipsum,
-        sed porta turpis sodales in. Nam vitae gravida nulla. Duis eget
-        adipiscing tellus. Sed dapibus velit in commodo condimentum. 
-        Vestibulum feugiat nunc risus, in sollicitudin ipsum faucibus non.
+        FEATURES
+        <ul>
+          <li>Single swimming time standards </li>
+          <li>Race Time Charts for each swim type</li>
+          <li>Swim race types include Freestyle, Breaststroke, Backstroke, Butterfly</li>
+          <li>You can select between Long Course Meters (LCM), Short Course Meters (SCM), Short Course Yards (SCY) type of pools.</li>
+          <li>Record and log your own swim times</li>
+          <li>You can compared your performance with friends just with invited then to use TiemposDeNatacion</li>
+        </ul>
 	</p>
        </div>
        <div class="span5 asset">
-	 <img class="img-polaroid" src="http://placehold.it/480x300" />
+	 <video width="400" height="320" controls>
+	     <source src="Others/swimmingVideo.mp4" type="video/mp4">
+	         Your browser does not support the video tag.
+		 </video>
        </div>
      </div>
   <!-- for the FAQ, we introduce a little bit of JS, usisnf the accordion.-->
